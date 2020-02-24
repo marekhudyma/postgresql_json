@@ -1,0 +1,4 @@
+CREATE TABLE info_json (
+  id    SERIAL NOT NULL PRIMARY KEY,
+  json  JSON NOT NULL
+);

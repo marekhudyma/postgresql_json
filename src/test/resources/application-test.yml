@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://${docker.service.host:0.0.0.0}:${postgres.port}/postgresql-json?stringtype=unspecified
+
+spring.jpa:show-sql: true
+spring.jpa.properties.hibernate.format_sql: true
+logging.level.org.hibernate.SQL: DEBUG

@@ -1,0 +1,48 @@
+{
+  "customerId": "$CUSTOMER_ID",
+  "items": {
+    "productId": "p2",
+    "quantity": 2,
+    "sku": "Business Cards",
+    "sourceItemId": "1234512346",
+    "components": [
+      {
+        "code": "Content",
+        "fetch": true,
+        "path": "http://www.someDomain.com/somePath.pdf"
+      }
+    ]
+  },
+  "name": "Alice Brown",
+  "sku": "54321",
+  "price": 199.95,
+  "billTo": {
+    "name": "Alice Brown",
+    "address": "456 Oak Lane",
+    "city": "Pretendville",
+    "state": "HI",
+    "zip": "98999"
+  },
+  "destination": {
+    "name": "accountName"
+  },
+  "orderData": {
+    "sourceOrderId": "1234512345",
+    "shipments": [
+      {
+        "shipTo": {
+          "name": "John Doe",
+          "companyName": "Acme",
+          "address1": "1234 Main St.",
+          "town": "Capitol",
+          "postcode": "12345",
+          "isoCountry": "US"
+        },
+        "carrier":{
+          "code": "fedex",
+          "service": "ground"
+        }
+      }
+    ]
+  }
+}

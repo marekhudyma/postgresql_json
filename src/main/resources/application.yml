@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            # to eliminate error: "org.postgresql.jdbc.PgConnection.createClob() is not yet implemented"
+            non_contextual_creation: true
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/json?stringtype=unspecified
