@@ -18,7 +18,7 @@
         <java.version>11</java.version>
         <mockito-core.version>3.0.0</mockito-core.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
-        <postgresql.version>42.2.5</postgresql.version>
+        <postgresql.version>42.3.3</postgresql.version>
         <junit-extension.version>0.3.1</junit-extension.version>
         <awaitility.version>3.1.6</awaitility.version>
         <guava.version>28.2-jre</guava.version>
